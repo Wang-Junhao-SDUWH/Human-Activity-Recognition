@@ -1,0 +1,6 @@
+/* miniprogram/pages/demo/demo.wxss */
+.demon{
+  height: 720rpx;
+  align-self: center;
+  margin-top: 80rpx;
+}

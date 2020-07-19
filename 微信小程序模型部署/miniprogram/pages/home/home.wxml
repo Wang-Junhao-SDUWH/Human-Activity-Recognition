@@ -1,0 +1,10 @@
+<!--pages/home/home.wxml-->
+<view class="motion-box">
+  <view style="border-bottom:solid #184d47 thin"><text style="font-size:40rpx;color:#184d47;font-weight:bold">动作演示</text></view>
+  <block wx:for="{{items}}">
+    <view class="motion" style="background:{{items[index].bgc}};border:solid medium {{items[index].borc}}"><button style="color:{{items[index].color}};line-height: 90rpx;font-size: 45rpx;width:100%" bindtap="demo" data-id="{{index}}">
+    {{items[index].txt}}</button></view>
+  </block>
+</view>
+  <view style="align-self:center;margin-top:20rpx;border-bottom:solid #184d47 thin"><text style="font-size:30rpx;color:#184d47">请将手机置于右手，手机背面面向掌心</text></view>
+<view class="test"><button class="btn" bindtap="record" disabled="{{isDisabled}}">开始测试</button></view>

@@ -1,0 +1,2 @@
+<!--miniprogram/pages/demo/demo.wxml-->
+<image  class="demon" src="{{imgsrc}}">{{imgsrc}}</image>
